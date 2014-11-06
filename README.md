@@ -1,6 +1,6 @@
-<h3>MiniTennis</h3>
+<h1>MiniTennis</h1>
 
-<h1>This is intended to be a simple fun project to learn with.</h1>
+<h3>This is intended to be a simple fun project to learn with.</h3>
 
 <h2>Goals:</h2>
  - learn some of the basic ideas of game programming in java
@@ -11,7 +11,8 @@
 	I should probably have named this project differently. The end goal is more to have a reasonably functional block-breaker style game. Not a tennis/pong game. But whatever, renaming everything might be a pain.
 	If i actually finish this, i should add as a goal, find a simple way to rename this project and its java package 'minitennis' to something more blockbreaker-ish. One thing at a time...
 
-<h2>IMPORTANT:</h2> <h1>I DID NOT INCLUDE ANY BUILT/COMPILED STUFF IN THIS REPO</h1>
+<h2>IMPORTANT:</h2>
+<h3>I DID NOT INCLUDE ANY BUILT/COMPILED STUFF IN THIS REPO</h3>
 
 .gitignore is set to ignore the gradle build/ directory, which I guess is standard practice. Anyway. To get some runnable .class files run:
 
