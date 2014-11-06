@@ -1,0 +1,12 @@
+# ignore gradle files and builds
+.gradle/
+build/
+
+# ignore eclipse files
+.classpath
+.project
+
+# ignore swap files from editors
+*.swp
+# ignore system crap
+.DS_Store

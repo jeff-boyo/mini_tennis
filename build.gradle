@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'macAppBundle'
+
+mainClassName = 'minitennis.Game'
+
+macAppBundle {
+    mainClassName = "minitennis.Game"
+    bundleJRE = true
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'edu.sc.seis.gradle:macappbundle:2.0.0'
+    }
+}
+
+jar {
+    baseName = 'minten_gradle'
+    version =  '0.1.0'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.1'
+}
