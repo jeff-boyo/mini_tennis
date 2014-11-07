@@ -5,7 +5,8 @@ import java.awt.event.KeyEvent;
 
 
 public class Paddle {
-	// some variables
+    //TODO add constant for paddle speed [x_vel = +/-1 * PADDLE_SPEED]
+    //TODO add constant for paddle height [currently hardcoded to 4/5]
 	int x_pos, x_vel, y_pos;
 	int width, height;
 	private Court court;
@@ -36,7 +37,7 @@ public class Paddle {
 			x_pos = x_pos + x_vel;
 		
 		// reset vertical position to bottom 1/5th of screen
-		// (in case window has been resized)
+		// (in case window size has changed)
 		y_pos = court.getHeight() * 4/5;
 	}
 
