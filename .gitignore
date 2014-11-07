@@ -2,9 +2,11 @@
 .gradle/
 build/
 
-# ignore eclipse files
+# ignore IDE files
 .classpath
 .project
+.idea/
+*.iml
 
 # ignore swap files from editors
 *.swp
