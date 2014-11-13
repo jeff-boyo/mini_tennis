@@ -21,4 +21,6 @@ From there, you can do './gradlew run' to run the game [with the help of the 'ap
 
 >$ ./gradlew createApp
 
-Note that this build indcludes a gradle wrapper [./gradlew] so no need to go mucking things up with calls to your own gradle version. everything is right there in ./gradlew, with the added bonus that you know its gonna work regardless of gradle version conflicts between our systems. Anyhow, do whatever you want.
+Note: the MacAppBundle createDMG is not working on my system. The rest of the build runs fine, so if gradle throws up some errors when you rund 'build' or 'createApp' dont worry about it. The rest of the build should be fine, even if 'createDMG' fails
+
+Note: this build indcludes a gradle wrapper [./gradlew] so no need to go mucking things up with calls to your own gradle version. everything is right there in ./gradlew, with the added bonus that you know its gonna work regardless of gradle version conflicts between our systems. Anyhow, do whatever you want.
